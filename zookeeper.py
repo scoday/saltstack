@@ -23,7 +23,7 @@
 
 
 
-{% for host in 'ma1-smd-lapp119.corp.scoday.com','ma1-smd-lapp121.corp.scoday.com','ma1-smd-lapp121.corp.scoday.com'}
+{% for host in 'app1.scoday.com','app2.scoday.com','app3.scoday.com'}
 {{ host }}:
   host:
     - present
